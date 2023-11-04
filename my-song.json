@@ -1,0 +1,31 @@
+{
+     "song" : {
+        "progressions" : [
+            {
+                "chords" : [
+                    { "chord" : "G_major", "duration" : 1 },
+                    { "chord" : "Rest", "duration" : 2 },
+                    { "chord" : "G_major", "duration" : 0.25, "repeats": 10 },
+                    { "chord" : "C_major", "duration" : 4 },
+                    { "chord" : "D_major", "duration" : 8 }
+                ],
+                "repeats" : 8
+            },
+            {
+                "chords" : [
+                    { "chord" : "F_major", "duration" : 4 },
+                    { "chord" : "C_major", "duration" : 4 }
+                ],
+                "repeats" : 4
+            },
+            {
+                "chords" : [
+                    { "chord" : "G_major", "duration" : 4 },
+                    { "chord" : "C_major", "duration" : 4 },
+                    { "chord" : "D_major", "duration" : 8 }
+                ],
+                "repeats" : 8
+            }
+        ]
+    }
+}
