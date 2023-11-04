@@ -289,7 +289,7 @@ def generate(args):
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description='Py-Trent socket server loopback Demo application.\nNote: address and data are assumed HEX numbers')
+    parser = argparse.ArgumentParser()
     parser.add_argument('-i', help='input json file')
     parser.add_argument('-o', help='output midi file')
 
