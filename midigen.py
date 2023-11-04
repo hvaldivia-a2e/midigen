@@ -269,6 +269,11 @@ def generate(args):
                         repeats = chord['repeats']
 
                     for r in range(repeats):
+                        # check if chord exists
+                        if chord_name not in chords_dict:
+                            print(f"Error: chord {chord_name}  not in dictionary")
+                            continue
+
                         # Check if it's a silent bar (rest)
                         if chord_name == "Rest":
                             time += duration
