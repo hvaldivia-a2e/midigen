@@ -37,7 +37,10 @@ The input to the generator is a json file with a list of chord progressions (or 
 }
 ```
 
+
 Each progression can have 1 or more "chords", each must have a specified "duration" in number of beats. fractional beats are supported (0.5 for half notes, 0.25 for quarter notes, etc.). The optional "repeats" param specifies the number of times this chord is to be added to the progression, when not specified, the chord is added once. The "repeats" param in the progression specifies how many times the progression is played.
+
+> NOTE: chord names must match an entry in the dictionary in the script. For silence we use "Rest" as the chord name.
 
 ## running the generator
 
